@@ -1,3 +1,4 @@
+## Author: Mark Grogan - C17399611
 # Scrum Sprint Backlog 
 
 | Story                                         | Estimation  | Priority |
@@ -14,3 +15,4 @@
 |Define Min and Max Score                       | 2           |  10      |
 |Generate Summary                               | 2           |  11      |
 |Total                                          | 29                     |
+
