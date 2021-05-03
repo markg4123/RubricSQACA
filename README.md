@@ -1,3 +1,3 @@
 # Software Quality Assurance Assignment - Rubrics
 
-## Author: Mark Grogan
+## Author: Mark Grogan - C17399611
