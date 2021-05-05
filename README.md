@@ -1,4 +1,7 @@
 # Team Version Control
+<p align = "center">
+  <img width="900" height="400" src="https://i0.wp.com/build5nines.com/wp-content/uploads/2018/01/simplified-git-flow.png?resize=1024%2C354&ssl=1">
+</p>
 
 ## Branches
 
