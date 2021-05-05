@@ -45,7 +45,8 @@ The Velocity Metric is calculated by adding up all the estimations for all fully
 
 - main
 - develop
-- sprintbacklog_taskestimation
+- sprint_backlog
+- task_estimation
 - team_version_control
 - test_coverage
 - test_driven_development
