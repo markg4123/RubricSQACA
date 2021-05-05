@@ -1,4 +1,3 @@
-## Author: Mark Grogan - C17399611
 # Scrum Sprint Backlog 
 
 | Story                                         | Estimation  | Priority |
