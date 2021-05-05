@@ -7,8 +7,8 @@
 
 - main
 - develop
-- sprintbacklog
-- taskestimation
+- sprint_backlog
+- task_estimation
 - team_version_control
 - test_coverage
 - test_driven_development
