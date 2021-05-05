@@ -1,5 +1,15 @@
-## Author: Mark Grogan - C17399611
-# Scrum Sprint Backlog 
+# <center> **Demonstrating Software Quality** </center>
+## <center>  Author: Mark Grogan - C17399611 </center>
+
+
+<p align = "center">
+  <img width="900" height="300" src="https://reqtest.com/wp-content/uploads/2019/02/965-X-365-resized-1-731x276.jpg">
+</p>
+
+---
+## Scrum Sprint Backlog 
+---
+<br>
 
 | Story                                         | Estimation  | Priority |
 | :---                                          |    :----:   |  :----:  |
@@ -16,7 +26,11 @@
 |Generate Summary                               | 2           |  11      |
 |Total                                          | 29                     |
 
-#  Task Estimation
+<br>
+
+---
+##  Task Estimation
+---
 
 ##  Three-point Estimation
 <p align = "center">
@@ -32,11 +46,14 @@ As seen in the Sprint Backlog above, Creating a new Rubric is given a estimation
 <br>
 
 ##  Velocity Metric
-<br>
+
 The Velocity Metric is calculated by adding up all the estimations for all fully completed tasks at the end of the Sprint. Knowing the velocity of a sprint allows me to know how many sprints it will take to achieve a desired level of functionality.
 <br>
+<br>
 
-# Team Version Control
+---
+## Team Version Control
+---
 <p align = "center">
   <img width="900" height="400" src="https://i0.wp.com/build5nines.com/wp-content/uploads/2018/01/simplified-git-flow.png?resize=1024%2C354&ssl=1">
 </p>
