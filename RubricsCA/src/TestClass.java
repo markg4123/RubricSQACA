@@ -20,9 +20,16 @@ public class TestClass {
 		rubric.add("Plan");
 		rubric.add("Documentation");
 		
+		rubric1.add("Plan");
+		rubric1.add("Design");
+		rubric1.add("Testing");
+		
+		rubrics.add(rubric);
+		rubrics.add(rubric1);
+		
 
 	
-		assertEquals(rubric,controller.createRubric());
+		assertEquals(rubrics,controller.createRubric());
 	
 	 }
 	
@@ -52,6 +59,19 @@ public class TestClass {
 			rubrics.add(rubric1);
 				
 			assertEquals(rubrics,controller.allRubrics());
+		
+		 }
+		 
+		 //get Rubric 1
+		 @Test
+		 public void testSpecificRubric() {
+				
+				rubric.add("Code");
+				rubric.add("Plan");
+				rubric.add("Documentation");
+				
+			
+			assertEquals(rubric,controller.getSpecificRubric());
 		
 		 }
 	 

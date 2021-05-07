@@ -11,8 +11,6 @@ public class Controller {
 		rubric.add("Plan");
 		rubric.add("Documentation");
 		
-		rubrics.add(rubric);
-		
 		rubric1.add("Plan");
 		rubric1.add("Design");
 		rubric1.add("Testing");
@@ -20,7 +18,7 @@ public class Controller {
 		rubrics.add(rubric);
 		rubrics.add(rubric1);
 		
-		return rubric;
+		return rubrics;
 	}
 
 	public ArrayList addCriterion() {
@@ -44,6 +42,17 @@ public class Controller {
 		rubrics.add(rubric);
 		rubrics.add(rubric1);
 		return rubrics;
+		
+	}
+
+	public ArrayList getSpecificRubric() {
+		
+		rubric.add("Code");
+		rubric.add("Plan");
+		rubric.add("Documentation");
+		
+		
+		return rubric;
 		
 	}
 
