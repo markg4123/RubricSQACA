@@ -15,7 +15,7 @@ For this assignment the coverage tool I used was EclEmma. EclEmma is a java code
   <img width="300" height="450" src="picture2.png">
 </p>
 
-EclEmma is simple to set up and does not require any modifications to your project. Once downloaded the tool runs from eclipse. From the menu inside the IDE click Run and from the drop down menu and choose Coverage. The tool will then analyse your code and return information on what has been tested and what has not been tested.The results are immediately summarized and highlighted in your source code editors. See example below.
+EclEmma is simple to set up and does not require any modifications to your project. Once downloaded the tool runs from eclipse. From the menu inside the IDE click Run and from the drop down menu and choose Coverage. The tool will then analyse your code and return information on what has been tested and what has not been tested. The results are immediately summarized and highlighted in your source code editors. See example below.
 
 <p align = "left">
   <img width="800" height="450" src="picture1.png">
