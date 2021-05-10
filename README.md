@@ -1,10 +1,37 @@
 # <center> **Demonstrating Software Quality** </center>
 ## <center>  Author: Mark Grogan - C17399611 </center>
-
-
 <p align = "center">
   <img width="900" height="300" src="https://reqtest.com/wp-content/uploads/2019/02/965-X-365-resized-1-731x276.jpg">
 </p>
+
+---
+## <center>  Table of Contents </center>
+---
+
+
+ * Scrum Sprint Backlog
+
+
+* Task Estimation
+  - Three-point Estimation
+  - Velocity Metric
+
+* Team Version Control
+  - Branches
+
+* Test Coverage
+  - EclEmma
+
+* Code Review
+  - What is a Code review?
+  - Why do a code review?
+  - Pull requests
+  - Code Review Checklist for Pull Requests
+
+* Test Driven Development
+
+<br>
+
 
 ---
 ## Scrum Sprint Backlog 
@@ -32,7 +59,12 @@
 ##  Task Estimation
 ---
 
+Task Estimations can allow a Team to determine how much work they should bring into a Sprint. This can allow a team to adjust, correct course, get features and their product to the end-user more quickly. This can lead to a project been delivery on time and not going overbudget. It can also help a Team to stay focused as some work well under time constraints which can enhance the learning ability of the developers.
+
+
+
 ##  Three-point Estimation
+
 <p align = "center">
   <img width="900" height="400" src="https://miro.medium.com/max/945/1*B7zN4-QgbdIH3IseXykfSw.png">
 </p>
@@ -44,6 +76,7 @@ I used three-point estimate as I found that it is the most effective way to esti
 <br>
 As seen in the Sprint Backlog above, Creating a new Rubric is given a estimation value of 1. Creating a new Rubric is relatively basic and will not require a lot of time to code. Alternatively, calculating the standard deviation is more of a complicated process and will take more time to code. Therefore it is given an estimation value of 4.
 <br>
+
 
 ##  Velocity Metric
 
@@ -57,6 +90,7 @@ The Velocity Metric is calculated by adding up all the estimations for all fully
 <p align = "center">
   <img width="900" height="400" src="https://i0.wp.com/build5nines.com/wp-content/uploads/2018/01/simplified-git-flow.png?resize=1024%2C354&ssl=1">
 </p>
+
 
 ## Branches
 
@@ -77,48 +111,60 @@ Above is a list of the branches I created for this project. Spintbacklog_taskest
  The following branches: sprintbacklog_taskestimation, team_version_control, test_coverage, test_driven_development, code_review are merged into the develop branch. After review, the develop branch will finally be merged to the main branch as one README.md file.
 <br>
 
-# Test Coverage
+---
+## Test Coverage
+---
+
 <p align = "center">
   <img width="900" height="350" src="https://devonblog.com/wp-content/uploads/2017/05/code-coverage.png">
 </p>
 
 <br>
-When writing unit tests, using a test coverage tool is very important. A test coverage tool will monitor the execution of your test suite and tell you how many of the statements, branches, functions and lines were run as part of your tests. This points out parts of your software you may not have tested.
+When writing unit tests, using a test coverage tool is very important. A test coverage tool will monitor the execution of your test suite and tell you how many of the statements, branches, functions and lines were run as part of your tests. This highlights the parts of your software you may not have tested.
 <br>
 
----
+
 ## EclEmma
----
+
 For this assignment the coverage tool I used was EclEmma. EclEmma is a java code coverage tool for Eclipse, available from the Eclipse marketplace. 
 <p align = "left">
   <img width="300" height="450" src="picture2.png">
 </p>
 
-Once downloaded the tool runs from eclipse. From the menu inside the IDE click Run and from the drop down menu choose Coverage. The tool will then analyse your code and return information on what had been tested and what has not been tested. See example below.
+EclEmma is simple to set up and does not require any modifications to your project. Once downloaded the tool runs from eclipse. From the menu inside the IDE click Run and from the drop down menu and choose Coverage. The tool will then analyse your code and return information on what has been tested and what has not been tested. The results are immediately summarized and highlighted in your source code editors. See example below.
 
 <p align = "left">
   <img width="800" height="450" src="picture1.png">
 </p>
-# Code Review Checklist 
+
+
+ EclEmma brings the code coverage analysis directly into your Eclipse workbench. It is straight forward to use and is accurate and effective.
+
 
 ---
-## What is a Code review?
+## Code Review
 ---
+<p align = "center">
+  <img width="900" height="450" src="https://i.imgur.com/3JVclYV.png">
+</p>
+
+## What is a Code review?
+
 
 Code review, also known as Peer Code Review, is a systematic examination of software code. The intention is to find bugs and improve software quality. Code review allows team members maintain a consistency between design and implementation techniques.
 
----
+
 ## Why do a Code review?
----
+
 
 - Consistent design and implementation.
 - Minimizing mistakes and their impact.
 - Ensuring project quality and meeting requirements.
 
 
----
+
 ## Pull Requests
----
+
 
 <p align = "center">
   <img width="900" height="400" src="Picture4.png">
@@ -131,9 +177,9 @@ In this assignment, I am working individually and accept my own pull requests. A
   <img width="900" height="400" src="https://i.imgur.com/CQWy3og.png">
 </p>
 
----
+
 ## Code Review Checklist for Pull Requests
----
+
 
 - Check for bad practices in the code.
 - Analyse the impact of the changes being made.
@@ -145,9 +191,11 @@ In this assignment, I am working individually and accept my own pull requests. A
 
 <br>
 The above is the checklist I used for this assignment when approving pull requests. I found this worked well and minimised errors. Code review is an essential aspect of any software project and should always be carried out correctly. 
-<br># Test Driven Development
+<br>
 
-# Test Driven Development
+---
+## Test Driven Development
+---
 <p align = "center">
   <img width="600" height="400" src="https://miro.medium.com/max/1126/1*UcGzy1kcqcI4ZG-NsXMxjA.png">
 
