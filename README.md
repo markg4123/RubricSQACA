@@ -10,4 +10,4 @@ Unit testing makes sure that all code meets quality standards. Over the course o
 <p align = "center">
   <img width="900" height="400" src="Picture5.png">
 
-  Above is an example of one of the test I created to test the creation of a Rubric. A Rubric is a list of Criteria. I created this when I wrote the code to create a Rubric. 
+  Above is an example of one of the tests I created to test the creation of a Rubric. A Rubric is a list of Criteria. I created this when I wrote the code to create a Rubric. 
