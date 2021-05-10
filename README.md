@@ -31,7 +31,7 @@ In this assignment, I am working individually and accept my own pull requests. A
 </p>
 
 ---
-## Pull Request Checklist
+## Code Review Checklist for Pull Requests
 ---
 
 - Check for bad practices in the code.
