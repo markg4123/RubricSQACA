@@ -1,5 +1,6 @@
 import static org.junit.Assert.assertEquals;
 
+import java.util.List;
 import java.util.ArrayList;
 
 import org.junit.Test;
@@ -8,6 +9,8 @@ public class TestClass {
 	ArrayList<String> rubric =new ArrayList<String>();
 	ArrayList<String> rubric1 =new ArrayList<String>();
 	ArrayList<ArrayList> rubrics = new ArrayList<>(); 
+	ArrayList<Integer> grade = new ArrayList<Integer>();
+	
 	
 
 	Controller controller = new Controller();
@@ -72,6 +75,20 @@ public class TestClass {
 				
 			
 			assertEquals(rubric,controller.getSpecificRubric());
+		
+		 }
+		 
+		 //test for adding student grade
+		 @Test
+		 public void testAddStudentGrade() {
+				
+			 	grade.add(19);
+				grade.add(45);
+				grade.add(54);
+				grade.add(32);
+				grade.add(86);
+			
+			assertEquals(grade,controller.createStudentGrade());
 		
 		 }
 	 

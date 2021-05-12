@@ -1,8 +1,11 @@
+import java.util.List;
 import java.util.ArrayList;
 
 public class Controller {
 	ArrayList<String> rubric =new ArrayList<String>();
 	ArrayList<String> rubric1 =new ArrayList<String>();
+	ArrayList<Integer> grade = new ArrayList<Integer>();
+	
 	ArrayList<ArrayList> rubrics = new ArrayList<>(); 
 
 	public ArrayList createRubric() {
@@ -54,6 +57,18 @@ public class Controller {
 		
 		return rubric;
 		
+	}
+	
+	public ArrayList createStudentGrade() {
+	
+		grade.add(19);
+		grade.add(45);
+		grade.add(54);
+		grade.add(32);
+		grade.add(86);
+		
+		
+		return grade;
 	}
 
 }
